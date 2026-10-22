@@ -1,8 +1,9 @@
 <!doctype html><html lang="ko"><head><meta charset=utf8><title>쩡플라워 | 축하화환 · 근조화환 · 화분 · 난</title>
-<meta name="description" content="쩡플라워 - 축하화환, 근조화환, 화분과 난을 정성껏 준비해 약속한 시간에 보내 드립니다. 24시간 주문 가능, 전화 010-2052-8843.">
+<meta name="description" content="쩡플라워 - 축하화환, 근조화환, 화분과 난을 정성껏 준비해 약속한 시간에 보내 드립니다. 24시간 주문 가능, 전화 010-2463-5388.">
 <meta property="og:type" content="website">
 <meta property="og:title" content="쩡플라워 | 축하화환 · 근조화환 · 화분 · 난">
 <meta property="og:description" content="축하와 위로의 자리에, 마음을 담아 보냅니다. 24시간 주문 가능.">
+<meta property="og:image" content="https://jjeongflower.github.io/main.jpg">
 <meta name="format-detection" content="telephone=yes">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>">
 <meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
@@ -63,6 +64,9 @@ p{margin:0}
 /* hero */
 .hero{padding-block:56px 72px;display:grid;gap:40px}
 .hero-head{display:grid;gap:18px;max-width:640px}
+.hero-top{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,420px);gap:clamp(24px,5vw,64px);align-items:center}
+.hero-img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block;border:1px solid var(--line)}
+@media (max-width:760px){.hero-top{grid-template-columns:1fr}.hero-img{max-width:420px;margin-inline:auto}}
 .eyebrow{font-size:12px;letter-spacing:.24em;color:var(--rose)}
 .hero h1{font-family:var(--f-kr);font-size:clamp(32px,5vw,52px);line-height:1.3;font-weight:400}
 .lede{color:var(--muted);max-width:34em}
@@ -204,10 +208,13 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 
 
 <main id="top">
   <section class="hero wrap">
+    <div class="hero-top">
     <div class="hero-head">
       <p class="eyebrow">FLOWER STUDIO · 쩡플라워</p>
       <h1>축하와 위로의 자리에,<br>마음을 담아 보냅니다</h1>
       <p class="lede">축하화환과 근조화환, 화분과 난. 마음을 전해야 하는 자리에 늦지 않게, 정성껏 준비해 보내 드립니다.</p>
+    </div>
+      <img class="hero-img" src="main.jpg" alt="축하합니다 리본이 달린 축하화환 옆에서 웃고 있는 회색 고양이" width="900" height="900">
     </div>
     <nav class="panels" aria-label="바로가기">
       <a class="panel" href="#about" style="--pbg:var(--p1)"><canvas data-kind="bouquet" data-seed="11" aria-hidden="true"></canvas><span class="pl"><b>ABOUT</b><small>쩡플라워 이야기</small></span></a>
@@ -303,11 +310,11 @@ footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px 
       <div class="cgrid" style="grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))">
         <div class="card">
           <span>PHONE</span>
-          <strong id="phone">010-2052-8843</strong>
+          <strong id="phone">010-2463-5388</strong>
           <p>급한 주문, 근조화환은 전화가 가장 빨라요.</p>
           <div class="btnrow">
-            <a class="copybtn callbtn" href="tel:01020528843" target="_blank" rel="noopener">전화 걸기</a>
-            <a class="copybtn callbtn" href="sms:01020528843" target="_blank" rel="noopener">문자 보내기</a>
+            <a class="copybtn callbtn" href="tel:01024635388" target="_blank" rel="noopener">전화 걸기</a>
+            <a class="copybtn callbtn" href="sms:01024635388" target="_blank" rel="noopener">문자 보내기</a>
           </div>
         </div>
         <div class="card">
